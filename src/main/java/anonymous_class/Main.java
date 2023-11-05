@@ -35,18 +35,6 @@ public class Main {
         /* ====== Anonymous class using interface ====== */
         // Similar to abstract class, we cannot instantiate interfaces.
         // Playable toy = new Playable(); // not possible
-        Playable toy = new Playable() {
-            @Override
-            public void play() {
-                // ....
-
-            }
-
-            @Override
-            public void love() {
-                // ....
-            }
-        };
 
         // =============== Button Example from JavaFx ==============
         Button button = new Button("Click me");
