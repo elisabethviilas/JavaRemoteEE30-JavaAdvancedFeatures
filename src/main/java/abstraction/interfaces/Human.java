@@ -7,11 +7,6 @@ public abstract class Human {
         this.skinColor = skinColor;
     }
 
-    @Override
-    public void play() {
-        System.out.println("girl is playing");
-    }
-
     public String getSkinColor() {
         return skinColor;
     }
